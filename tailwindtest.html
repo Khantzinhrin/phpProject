@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind CSS Dark Mode</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class' // Enable class-based dark mode
+    }
+  </script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 min-h-screen flex flex-col items-center justify-center transition-colors duration-300">
+
+  <button
+    onclick="document.documentElement.classList.toggle('dark')"
+    class="mb-6 px-4 py-2 bg-gray-800 text-white dark:bg-yellow-300 dark:text-black rounded transition">
+    Toggle Dark Mode
+  </button>
+
+  <div class="text-center p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg transition-colors duration-300">
+    <h1 class="text-4xl font-bold text-blue-600 dark:text-yellow-400 mb-4">Hello, Tailwind!</h1>
+    <p class="text-gray-700 dark:text-gray-300 mb-6">
+      You're now using Tailwind CSS with light and dark modes.
+    </p>
+    <button class="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">
+      Click Me
+    </button>
+  </div>
+
+</body>
+</html>

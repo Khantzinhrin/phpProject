@@ -8,5 +8,7 @@
         <li><a href="travel.php">Travel</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="Userlogin/login.php" class="text-red-600 hover:underline">Login</a></li>
+        <li><a href="Userlogin/register.php" class="text-red-600 hover:underline">Sign Up</a></li>
     </ul>
 </nav>

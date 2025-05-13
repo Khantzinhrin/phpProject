@@ -24,7 +24,6 @@ body {
     overflow-x: hidden;
     position: relative;
     scroll-behavior: smooth;
-    background-image: url('pixelcut-export.jpeg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;  
@@ -208,19 +207,6 @@ body.scrolling::-webkit-scrollbar-thumb {
     margin-top: 20px;
     left: 200px;
     animation: wriggle 2s infinite;
-}
-
-body::before {
-    content: "旅行 冒険 富士山 温泉 京都 桜 風景 神社";
-    font-size: 4em;
-    color: rgba(0, 0, 0, 0.05);
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(-50%);
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    animation: floatVertical 15s infinite;
 }
 
 .section {
