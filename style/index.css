@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Japanese 3017";
-  src: url("external_libraries/Japanese3017.woff") format("woff"),
-    url("external_libraries/Japanese3017.woff2") format("woff2");
+  src: url("../external_libraries/Japanese3017.woff") format("woff"),
+    url("../external_libraries/Japanese3017.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
